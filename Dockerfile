@@ -27,7 +27,7 @@ RUN mkdir -p /root/.clawdbot \
     && mkdir -p /root/clawd/skills
 
 # Copy startup script
-# Build cache bust: 2026-01-27-v18-rsync
+# Build cache bust: 2026-01-27-v19-anthropic-base-url
 COPY start-clawdbot.sh /usr/local/bin/start-clawdbot.sh
 RUN chmod +x /usr/local/bin/start-clawdbot.sh
 
